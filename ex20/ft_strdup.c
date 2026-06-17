@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: smilch <marvin@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/21 17:28:44 by smilch            #+#    #+#             */
-/*   Updated: 2026/05/21 17:28:47 by smilch           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include <stdlib.h>
 
@@ -38,7 +27,7 @@ int	main(void)
 {
 	char source[] = "jump motherf$%*@ jump";
 
-    char* target = ft_strdup(source); 
+    char* target = ft_strdup(source);
 
     printf("%s", target);
     return 0;

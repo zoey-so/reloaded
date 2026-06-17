@@ -1,5 +1,3 @@
-#include <unistd.h>
-
 int	ft_strcmp(char *s1, char *s2)
 {
 	while (*s1 == *s2 && *s1 != '\0')
@@ -59,8 +57,8 @@ int	main(int argc, char **argv)
 	while (++i < argc)
 	{
 		while (*argv[i])
-			write(1, argv[i]++, 1);
-		write(1, "\n", 1);
+			ft_putchar(*argv[i]++);
+		ft_putchar('\n');
 	}
 	return (0);
 }

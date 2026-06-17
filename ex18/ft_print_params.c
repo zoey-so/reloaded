@@ -1,5 +1,3 @@
-#include <unistd.h>
-
 int	main(int argc, char **argv)
 {
 	int	i;
@@ -10,8 +8,8 @@ int	main(int argc, char **argv)
 		while (++i < argc)
 		{
 			while (*argv[i])
-				write(1, argv[i]++, 1);
-			write(1, "\n", 1);
+				ft_putchar(*argv[i]++);
+			ft_putchar('\n');
 		}
 	}
 	return (0);
