@@ -1,8 +1,6 @@
-#include "ft_swap.h"
-
 void	ft_swap(int *a, int *b)
 {
-	int swap;
+	int	swap;
 
 	swap = *a;
 	*a = *b;

@@ -38,7 +38,6 @@ int	ft_sqrt(int nb)
 	return (0);
 }
 
-
 // #include <stdio.h>
 // #include <stdlib.h>
 // int	main(int argc, char **argv)
