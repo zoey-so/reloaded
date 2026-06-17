@@ -25,7 +25,7 @@ int	ft_sqrt(int nb)
 		max = nb / 2;
 	else
 		min = 304;
-	while (min < max)
+	while (min <= max)
 	{
 		res = (max + min) / 2;
 		if (res * res == nb)
